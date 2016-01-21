@@ -31,6 +31,18 @@ public class TestDecoratorPattern {
 
         pizza = new Ham(pizza);
         print(pizza);
+
+        pizza = new Chicken(pizza);
+        print(pizza);
+
+        pizza = new Meat(pizza);
+        print(pizza);
+
+        pizza = new Spinach(pizza);
+        print(pizza);
+
+        pizza = new FetaCheese(pizza);
+        print(pizza);
     }
 
     private static void print(Pizza pizza) {

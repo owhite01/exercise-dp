@@ -2,7 +2,8 @@ package xpay;
 
 import lombok.Data;
 
-@Data
+//@Data
+/*
 public class XpayImpl implements Xpay {
     private String creditCardNo;
     private String customerName;
@@ -11,4 +12,4 @@ public class XpayImpl implements Xpay {
     private Short cardCVVNo;
     private Double amount;
 
-}
+}*/
