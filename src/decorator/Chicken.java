@@ -5,12 +5,12 @@ public class Chicken implements Pizza{
     }
     @Override
     public String getDesc() {
-        return null;
+        return "Chicken";
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return 12.50;
     }
 }
 

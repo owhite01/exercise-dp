@@ -6,11 +6,11 @@ public class GreenOlives implements Pizza {
 
     @Override
     public String getDesc() {
-        return null;
+        return "Green Olives";
     }
 
     @Override
     public double getPrice() {
-        return 0.9;
+        return 5.27;
     }
 }

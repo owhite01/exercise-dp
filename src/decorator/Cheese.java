@@ -5,11 +5,11 @@ public class Cheese implements Pizza{
     }
     @Override
     public String getDesc() {
-        return null;
+        return "CHeese";
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return 20.71;
     }
 }

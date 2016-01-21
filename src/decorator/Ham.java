@@ -1,16 +1,21 @@
 package decorator;
 
-public class Ham implements Pizza{
+public class Ham extends PizzaDecorator{
+
+    private Pizza pizza;
+
     public Ham(Pizza pizza) {
+        this.pizza = pizza;
     }
 
     @Override
-    public String getDesc() {
-        return null;
+    public String getDesc()
+    {
+        return pizza.getDesc() + "Ham("+ getPrice() + ")";
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return 8.12;
     }
 }
