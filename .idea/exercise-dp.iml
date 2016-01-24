@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://H:/Production" />
-    <output-test url="file://H:/Production/Test" />
+    <output url="file://$USER_HOME$/Documents/BBK masters/SDP2016-master/Production" />
+    <output-test url="file://$USER_HOME$/Documents/BBK masters/SDP2016-master/TEsts" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />

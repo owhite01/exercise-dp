@@ -1,16 +1,19 @@
 package decorator;
 
 public class GreenOlives implements Pizza {
+    Pizza pizza;
     public GreenOlives(Pizza pizza) {
+        this.pizza = pizza;
+
     }
 
     @Override
     public String getDesc() {
-        return "Green Olives";
+        return pizza.getDesc() + ", Green Olives(5.47)";
     }
 
     @Override
     public double getPrice() {
-        return 5.27;
+        return pizza.getPrice() + 5.47;
     }
 }

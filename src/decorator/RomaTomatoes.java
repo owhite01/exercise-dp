@@ -3,8 +3,8 @@ package decorator;
 public class RomaTomatoes implements Pizza {
 
     Pizza pizza;
-    public RomaTomatoes(Pizza pizza) {
-        this.pizza = pizza;
+        public RomaTomatoes(Pizza pizza) {
+            this.pizza = pizza;
     }
 
     @Override

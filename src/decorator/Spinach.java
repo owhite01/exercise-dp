@@ -10,11 +10,11 @@ public class Spinach implements Pizza{
 
     @Override
     public String getDesc() {
-        return "Spinach";
+        return pizza.getDesc() + ", Spinach(7.92) ";
     }
 
     @Override
     public double getPrice() {
-        return 7.92;
+        return pizza.getPrice() + 7.92;
     }
 }

@@ -12,37 +12,30 @@ public class TestDecoratorPattern {
     public static void main(String[] args) {
         Pizza pizza = new SimplyVegPizza();
         pizza = new RomaTomatoes(pizza);
-        print(pizza);
+        //print(pizza);
 
         pizza = new GreenOlives(pizza);
-        print(pizza);
+       //print(pizza);
 
         pizza = new Spinach(pizza);
         print(pizza);
 
         pizza = new SimplyNonVegPizza();
-        print(pizza);
+        //print(pizza);
 
         pizza = new Meat(pizza);
-        print(pizza);
+        //print(pizza);
 
         pizza = new Cheese(pizza);
-        print(pizza);
+        //print(pizza);
+
+        pizza = new Cheese(pizza);
+       //print(pizza);
 
         pizza = new Ham(pizza);
         print(pizza);
 
-        pizza = new Chicken(pizza);
-        print(pizza);
 
-        pizza = new Meat(pizza);
-        print(pizza);
-
-        pizza = new Spinach(pizza);
-        print(pizza);
-
-        pizza = new FetaCheese(pizza);
-        print(pizza);
     }
 
     private static void print(Pizza pizza) {
