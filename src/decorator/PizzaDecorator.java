@@ -2,7 +2,6 @@ package decorator;
 
 public abstract class PizzaDecorator implements Pizza {
 
-    //TEST GITHUB
 
     public String getDesc() {
         return null;
