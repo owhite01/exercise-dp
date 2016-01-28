@@ -1,7 +1,7 @@
 package decorator;
 
 public class Cheese implements Pizza{
-    private Pizza pizza;
+    private final Pizza pizza;
     public Cheese(Pizza pizza) {
         this.pizza = pizza;
 

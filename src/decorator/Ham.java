@@ -2,7 +2,7 @@ package decorator;
 
 public class Ham extends PizzaDecorator{
 
-    private Pizza pizza;
+    private final Pizza pizza;
 
     public Ham(Pizza pizza) {
         this.pizza = pizza;

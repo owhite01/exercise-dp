@@ -3,7 +3,7 @@ package decorator;
 public class SimplyVegPizza implements Pizza {
     @Override
     public String getDesc() {
-        return "SimplyVegPizza (" + getPrice() + ")";
+        return "SimplyVegPizza (230)";
     }
 
     @Override
